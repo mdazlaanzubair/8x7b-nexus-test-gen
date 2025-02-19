@@ -186,6 +186,8 @@ Ensure your **`8x7b-nexus-test-gen/dataset/raw_data/`** has the test case data e
 
     - **`open_ai_chat.zip`**: Contains chats data from which the models are used to generate test case of each software.
 
+    - **`SRS`**: Contains Software Requirement Specification (SRS) documents of projects for whom test cases were written.
+
 * **`processed_data/`**
 
     - **`test_cases.json`**: Contains cleaned copy of test cases extracted from raw data excel sheet in a processable format *(removed unnecessary fields)*.
@@ -204,7 +206,7 @@ Ensure your **`8x7b-nexus-test-gen/dataset/raw_data/`** has the test case data e
 
     - **`stats_tests.json`**: Contains statistical analysis of quality of each group using **`ANOVA`** and **`T-Test`**.
 
-    - **`data.zip`**: Contains data, results and chart that processed or produced while we were conducting this research.
+    - **`data.zip`**: Contains data, results and chart that we produced while conducting the research.
 
 ## Troubleshooting
 
