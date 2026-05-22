@@ -1,0 +1,93 @@
+================================================================================
+LIGHTWEIGHT REDUNDANCY AND DIVERSITY ANALYSIS REPORT
+================================================================================
+Input file: test_cases.json
+Total valid test cases: 3682
+
+DATASET OVERVIEW
+group                          module                            feature            
+o1-model-zero-shot             Authentication and Authorization  User Authentication    13
+o1-model-chain-of-thought      Meeting Initiation                Create Meeting         13
+gpt4-model-few-shot            Authentication and Authorization  Authentication         12
+o1-model-chain-of-thought      Authentication and Authorization  User Login             11
+gpt4-model-zero-shot           Authentication and Authorization  Login                  10
+o1-model-tree-of-thoughts      Book Reservation                  Book Reservation       10
+                               Online User Status                Online User Status     10
+                               Registration                      User Registration      10
+                               E-Book Reading                    E-Book Reading         10
+gpt4-model-chain-of-thought    Authentication and Authorization  Authentication         10
+o1-model-tree-of-thoughts      Book Issuance                     Book Issuance           9
+gpt4-model-generate-knowledge  Authentication and Authorization  Security                9
+o1-model-chain-of-thought      Employee List Tab                 List Employees          9
+gpt4-model-react               Authentication and Authorization  Login                   9
+o1-model-chain-of-thought      Recruitment                       Add New Employee        8
+o1-model-tree-of-thoughts      Meeting Room Allocation           Allocate Room           8
+                               Meeting Initiation                Create Meeting          8
+gpt4-model-react               Authentication and Authorization  User Account            8
+gpt4-model-tree-of-thoughts    Authentication and Authorization  Login                   8
+human-engineers                Authentication and Authorization  Registration            7
+
+EXACT DUPLICATE ANALYSIS BY GROUP
+group_type                    group_name  total_test_cases  unique_test_cases  exact_duplicate_count  duplicate_percentage
+     group     o1-model-tree-of-thoughts               738                738                      0                   0.0
+     group     o1-model-chain-of-thought               502                502                      0                   0.0
+     group            o1-model-zero-shot               403                403                      0                   0.0
+     group   gpt4-model-chain-of-thought               314                314                      0                   0.0
+     group   gpt4-model-tree-of-thoughts               274                274                      0                   0.0
+     group gpt4-model-generate-knowledge               258                258                      0                   0.0
+     group               gpt4-model-meta               217                217                      0                   0.0
+     group   gpt4-model-self-consistency               209                209                      0                   0.0
+     group              gpt4-model-react               202                202                      0                   0.0
+     group           gpt4-model-few-shot               199                199                      0                   0.0
+     group          gpt4-model-zero-shot               191                191                      0                   0.0
+     group               human-engineers               175                175                      0                   0.0
+
+TF-IDF OVERALL SUMMARY
+ total_test_cases  pair_count  average_similarity  maximum_similarity  redundancy_ratio  diversity_ratio  near_duplicate_count  near_duplicate_ratio  moderate_overlap_count  moderate_overlap_ratio
+             3682     6776721            0.085561                 1.0          0.085561         0.914439                   313              0.000046                    9220                0.001361
+
+JACCARD OVERALL SUMMARY
+ total_test_cases  pair_count  average_jaccard_similarity  maximum_jaccard_similarity
+             3682     6776721                    0.191635                         1.0
+
+HUMAN VS GENERATED SUMMARY
+   subset  total_test_cases  average_similarity  redundancy_ratio  diversity_ratio  average_jaccard_similarity
+    human               175            0.104326          0.104326         0.895674                    0.207342
+generated              3507            0.085335          0.085335         0.914665                    0.191565
+
+TOP SIMILAR PAIRS
+- score=1.000 | gpt4-model-zero-shot / Authentication and Authorization vs gpt4-model-few-shot / Authentication and Authorization | 'Brute force prevention' <-> 'Brute force prevention'
+- score=1.000 | gpt4-model-zero-shot / Authentication and Authorization vs gpt4-model-few-shot / Authentication and Authorization | 'Successful login with valid credentials' <-> 'Successful login with valid credentials'
+- score=1.000 | gpt4-model-zero-shot / Authentication and Authorization vs gpt4-model-few-shot / Authentication and Authorization | 'Block login with incorrect password' <-> 'Block login with incorrect password'
+- score=1.000 | gpt4-model-zero-shot / Authentication and Authorization vs gpt4-model-few-shot / Authentication and Authorization | 'Valid Login' <-> 'Valid Login'
+- score=1.000 | gpt4-model-meta / User Interface vs gpt4-model-self-consistency / User Interface | 'Dashboard Load Handling under High Traffic' <-> 'Dashboard Load Handling under High Traffic'
+- score=1.000 | gpt4-model-meta / Authentication and Authorization vs gpt4-model-self-consistency / Authentication and Authorization | 'Invalid Password Handling' <-> 'Invalid Password Handling'
+- score=1.000 | gpt4-model-meta / Participant Management vs gpt4-model-self-consistency / Participant Management | 'Restrict Participant Access to Admin Features' <-> 'Restrict Participant Access to Admin Features'
+- score=1.000 | gpt4-model-meta / Training Course Management vs gpt4-model-self-consistency / Training Course Management | 'Bulk Import of Large Training Course Dataset' <-> 'Bulk Import of Large Training Course Dataset'
+- score=1.000 | gpt4-model-meta / Authentication and Authorization vs gpt4-model-self-consistency / Authentication and Authorization | 'Valid User Login' <-> 'Valid User Login'
+- score=1.000 | gpt4-model-meta / Authentication and Authorization vs gpt4-model-self-consistency / Authentication and Authorization | 'Verify MFA Implementation' <-> 'Verify MFA Implementation'
+- score=1.000 | gpt4-model-zero-shot / Authentication and Authorization vs gpt4-model-few-shot / Authentication and Authorization | 'Caps Lock Warning Test' <-> 'Caps Lock Warning Test'
+- score=1.000 | gpt4-model-zero-shot / Authentication and Authorization vs gpt4-model-few-shot / Authentication and Authorization | 'SQL Injection Test' <-> 'SQL Injection Test'
+- score=1.000 | gpt4-model-meta / Training Course Management vs gpt4-model-self-consistency / Training Course Management | 'Missing Required Fields' <-> 'Missing Required Fields'
+- score=1.000 | gpt4-model-meta / Participant Management vs gpt4-model-self-consistency / Participant Management | 'Assign Participant to Full Course' <-> 'Assign Participant to Full Course'
+- score=1.000 | gpt4-model-meta / User Interface vs gpt4-model-self-consistency / User Interface | 'Invalid Email Format in Registration Form' <-> 'Invalid Email Format in Registration Form'
+- score=1.000 | gpt4-model-meta / Reporting and Analytics vs gpt4-model-self-consistency / Reporting and Analytics | 'Large Data Export Test' <-> 'Large Data Export Test'
+- score=1.000 | gpt4-model-zero-shot / Authentication and Authorization vs gpt4-model-few-shot / Authentication and Authorization | 'Valid Login Test' <-> 'Valid Login Test'
+- score=1.000 | gpt4-model-zero-shot / Authentication and Authorization vs gpt4-model-few-shot / Authentication and Authorization | 'Invalid Login Test' <-> 'Invalid Login Test'
+- score=1.000 | gpt4-model-zero-shot / Authentication and Authorization vs gpt4-model-few-shot / Authentication and Authorization | 'Valid login' <-> 'Valid login'
+- score=1.000 | gpt4-model-meta / User Interface vs gpt4-model-self-consistency / User Interface | 'Verify Dashboard Responsiveness' <-> 'Verify Dashboard Responsiveness'
+
+AUTOMATIC INTERPRETATION
+- Overall lexical redundancy was low.
+- Generated test cases did not show higher lexical overlap than human-engineered cases.
+- Generated test cases were produced in higher volume than human-engineered cases.
+- human-engineers had the highest redundancy ratio (0.104).
+- o1-model-chain-of-thought had the lowest redundancy ratio (0.081).
+- Higher output volume was associated with reduced lexical overlap.
+
+ACADEMIC REPORTING GUIDANCE
+- Report exact duplicate percentage, average TF-IDF cosine similarity, maximum cosine similarity, near-duplicate ratio (>0.85), and moderate-overlap ratio (>0.70) for each group.
+- Use human-engineered cases as a baseline and compare generated cases against them directly.
+- If generated volume is much larger than the human baseline, show that the redundancy ratios remain controlled; otherwise qualify the coverage claim.
+- The top-similarity pair table provides concrete examples of repetition or paraphrasing and is useful as qualitative evidence in a rebuttal.
+- A strong revision should state that quantity alone does not imply better coverage; diversity metrics are needed to support any superiority claim.

@@ -1,0 +1,362 @@
+[
+    {
+        "group": "human-engineers",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 50.95
+    },
+    {
+        "group": "human-engineers",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 243.05
+    },
+    {
+        "group": "human-engineers",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 205.1
+    },
+    {
+        "group": "human-engineers",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 35.85
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 51.1
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 144.7
+    },
+    {
+        "group": "human-engineers",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 107.65
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 261.95
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 185.4
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 387.55
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 315.55
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 171.65
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 361.6
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 302.3
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 55.45
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 247.85
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 1258.5
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 673.05
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 471.4
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 304.8
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 58.75
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 52.95
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 84.1
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 94.75
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 90.95
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 276.85
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 225.35
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 365.6
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 406.5
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 379.7
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 294.8
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 173.15
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 190.0
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 219.6
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 158.25
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 136.6
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 111.2
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 122.5
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 129.5
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 134.5
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 166.9
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 181.75
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 75.35
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 59.2
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 26.9
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 59.75
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 30.1
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 109.05
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 30.2
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 148.95
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 153.8
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 160.75
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 531.65
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 712.05
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 417.1
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 487.3
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 567.3
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 115.35
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 77.65
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 123.65
+    }
+]

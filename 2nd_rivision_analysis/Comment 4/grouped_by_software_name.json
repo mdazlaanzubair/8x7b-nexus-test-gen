@@ -1,0 +1,794 @@
+[
+    {
+        "group": "human-engineers",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 50.95
+    },
+    {
+        "group": "human-engineers",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 83.4
+    },
+    {
+        "group": "human-engineers",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 36.4
+    },
+    {
+        "group": "human-engineers",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 35.85
+    },
+    {
+        "group": "human-engineers",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 55.85
+    },
+    {
+        "group": "human-engineers",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 55.35
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 51.1
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 144.7
+    },
+    {
+        "group": "human-engineers",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 123.7
+    },
+    {
+        "group": "human-engineers",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 45.0
+    },
+    {
+        "group": "human-engineers",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 48.45
+    },
+    {
+        "group": "human-engineers",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 43.7
+    },
+    {
+        "group": "human-engineers",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 63.95
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 261.95
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 60.8
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 76.3
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 71.65
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 81.55
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 106.75
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 126.25
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 55.45
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 47.05
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 308.0
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 203.35
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 327.05
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 165.2
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 58.75
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 52.95
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 84.1
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 94.75
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 90.95
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 89.15
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 69.85
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 141.3
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 150.3
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 99.3
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 139.9
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 96.65
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 85.65
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 36.2
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 59.65
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 101.65
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 49.4
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 74.45
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 63.85
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 224.1
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 51.15
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 52.45
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 153.2
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 61.1
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 69.1
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 112.2
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 36.0
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 85.45
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 43.6
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 62.95
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 99.95
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 79.65
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 48.75
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 54.9
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 87.35
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 49.7
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 71.3
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 40.2
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 95.25
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 72.65
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 65.1
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 49.25
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 61.5
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 51.2
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 89.3
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 39.25
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 94.25
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 116.65
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 90.1
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 84.5
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 64.95
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 79.5
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 76.05
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 87.15
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 71.1
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 75.35
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 59.2
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 26.9
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 59.75
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 30.1
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 109.05
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 30.2
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 58.2
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 53.95
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 84.2
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 52.5
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 88.1
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 94.15
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 51.1
+    },
+    {
+        "group": "gpt4-model-zero-shot",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 44.05
+    },
+    {
+        "group": "gpt4-model-few-shot",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 57.95
+    },
+    {
+        "group": "gpt4-model-chain-of-thought",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 77.15
+    },
+    {
+        "group": "gpt4-model-meta",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 103.75
+    },
+    {
+        "group": "gpt4-model-self-consistency",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 56.5
+    },
+    {
+        "group": "gpt4-model-generate-knowledge",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 66.0
+    },
+    {
+        "group": "gpt4-model-tree-of-thoughts",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 55.4
+    },
+    {
+        "group": "gpt4-model-react",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 103.15
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 148.95
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 153.8
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+        "type": "Financial & FinTech Applications",
+        "total_weighted_average_score": 160.75
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 139.55
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Co-op Evaluation System (CES)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 143.7
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 117.6
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Hotel Management System (HMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 113.15
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 180.35
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 253.0
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Human Resource Management System (HRMS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 220.05
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 131.95
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 56.6
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Online Library Management System (LMS)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 280.95
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 139.6
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "SDMSTM Synergy Distributed Meeting Scheduler",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 234.1
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 144.35
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "MusicBox",
+        "type": "High Performance Systems",
+        "total_weighted_average_score": 333.2
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 119.15
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 121.15
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Online Shopping System (OSS)",
+        "type": "E commerce & Business Applications",
+        "total_weighted_average_score": 249.65
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 115.35
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 77.65
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Project Automate Paint Defect Analysis",
+        "type": "Safety Critical Systems",
+        "total_weighted_average_score": 123.65
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 73.95
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 93.0
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Student Registration System",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 485.25
+    },
+    {
+        "group": "o1-model-zero-shot",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 186.2
+    },
+    {
+        "group": "o1-model-chain-of-thought",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 418.75
+    },
+    {
+        "group": "o1-model-tree-of-thoughts",
+        "software": "Training Database Platform (TDP)",
+        "type": "Balanced Testing",
+        "total_weighted_average_score": 184.3
+    }
+]

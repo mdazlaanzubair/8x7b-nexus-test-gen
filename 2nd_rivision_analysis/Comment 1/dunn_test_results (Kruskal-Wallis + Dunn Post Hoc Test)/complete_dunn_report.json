@@ -1,0 +1,1884 @@
+{
+    "kruskal_wallis_results": [
+        {
+            "metric": "coverage",
+            "H_statistic": 10.928552982449144,
+            "p_value": 0.4492681975259504,
+            "interpretation": "No Significant Difference"
+        },
+        {
+            "metric": "clarity",
+            "H_statistic": 42.49393579533425,
+            "p_value": 1.3299202786422615e-05,
+            "interpretation": "Significant Difference"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "H_statistic": 60.53533719914618,
+            "p_value": 7.373450686934466e-09,
+            "interpretation": "Significant Difference"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "H_statistic": 90.53309816578685,
+            "p_value": 1.3106507427273146e-14,
+            "interpretation": "Significant Difference"
+        },
+        {
+            "metric": "quality_score",
+            "H_statistic": 89.54258848144717,
+            "p_value": 2.049167264931599e-14,
+            "interpretation": "Significant Difference"
+        }
+    ],
+    "dunn_posthoc_results": [
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-few-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-generate-knowledge",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.005862480394653035,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-generate-knowledge",
+            "corrected_p_value": 0.45367568057390123,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 0.18727199666533928,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 0.1710879021228657,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 0.9356970025181746,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.15955642532543488,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.025817135778305522,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 3.356409557738565e-05,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-meta",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-react",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.3094522583196728,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.0008301471186918053,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.0434511132046358,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.10824695720521221,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "o1-model-chain-of-thought",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "o1-model-chain-of-thought",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.4474006143427767,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "clarity",
+            "group_1": "o1-model-tree-of-thoughts",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.9339420502415314,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-few-shot",
+            "corrected_p_value": 0.46772264137294817,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-generate-knowledge",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.13773991136478547,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.09301397889114298,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.561761247232872,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-generate-knowledge",
+            "corrected_p_value": 0.013677232093490366,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 0.5931175172262504,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 0.022625466807340667,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 0.08342117174984073,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "human-engineers",
+            "corrected_p_value": 0.4773775976751884,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.8222016724640627e-06,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 5.970203371369488e-07,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 2.2186023790604964e-05,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.20992843008464732,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.1659878769435294,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.6742730973815306,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.011223335115152805,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.007311780390926164,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.0509399568235675,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.7960317638367552,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.6971739196662444,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "o1-model-chain-of-thought",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "o1-model-chain-of-thought",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "edge_and_negative_cases_score",
+            "group_1": "o1-model-tree-of-thoughts",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-few-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-generate-knowledge",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "human-engineers",
+            "corrected_p_value": 0.06147282394768992,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.0036069087087279112,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-generate-knowledge",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 0.11235220045714132,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 0.00375076522737944,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.8732578512082907e-07,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.0005903893394128132,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.2819377754103407,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "human-engineers",
+            "corrected_p_value": 0.21077551662205468,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.002761048848187787,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-meta",
+            "group_2": "human-engineers",
+            "corrected_p_value": 0.003180913801580593,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 0.4349299312154582,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-react",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.0006995842950170345,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.31483891947574266,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 0.06137717519840286,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "human-engineers",
+            "corrected_p_value": 5.8446768258727444e-05,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 5.332195710435313e-06,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.015596124282490104,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "human-engineers",
+            "corrected_p_value": 0.35023789715266496,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.016864867428618705,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 4.407835817110246e-10,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 3.013758561391183e-06,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.006511116828903124,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "o1-model-chain-of-thought",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.8918089291937198,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "o1-model-chain-of-thought",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.012192112961975953,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "non_functional_coverage",
+            "group_1": "o1-model-tree-of-thoughts",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-few-shot",
+            "corrected_p_value": 0.11403062543953847,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-generate-knowledge",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.0021477886699457272,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.18761096948450842,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-chain-of-thought",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-generate-knowledge",
+            "corrected_p_value": 0.026008672612318245,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 0.005394068748279535,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 0.0014087449079968634,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 0.20117827443664393,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 0.14609211168716937,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 2.2784019385615565e-10,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 8.349667192082997e-08,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-few-shot",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 7.255275014442786e-05,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-meta",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "human-engineers",
+            "corrected_p_value": 0.44952669813811025,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.07780533000721176,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-generate-knowledge",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-react",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "human-engineers",
+            "corrected_p_value": 0.11826037470970614,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-meta",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-self-consistency",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.0001608426069675218,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.013509266204624408,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-react",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.46897038887370057,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "gpt4-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "human-engineers",
+            "corrected_p_value": 0.03962276439818307,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-self-consistency",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "gpt4-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.0028964499697215064,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 0.20649544995182767,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-tree-of-thoughts",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "human-engineers",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 0.08761476694170846,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "gpt4-model-zero-shot",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-chain-of-thought",
+            "corrected_p_value": 3.257210193636712e-07,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 5.073054111432431e-05,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "human-engineers",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 0.006419028419120393,
+            "interpretation": "Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "o1-model-chain-of-thought",
+            "group_2": "o1-model-tree-of-thoughts",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "o1-model-chain-of-thought",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        },
+        {
+            "metric": "quality_score",
+            "group_1": "o1-model-tree-of-thoughts",
+            "group_2": "o1-model-zero-shot",
+            "corrected_p_value": 1.0,
+            "interpretation": "Not Significant"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "project_name": "Commonwealth Casualty Company’s (CCC) Document Templating Engine with AWS",
+    "software_type": ["Banking", "Insurance"],
+    "assigned_category": "Financial & FinTech Applications",
+    "rationale": "Handles contractual agreements, insurance related workflows, document integrity, authentication, and secure enterprise document processing."
+  },
+  {
+    "id": 2,
+    "project_name": "Co-op Evaluation System (CES)",
+    "software_type": ["General Applications"],
+    "assigned_category": "Balanced Testing",
+    "rationale": "Represents a general academic and administrative management system with balanced functional and usability requirements."
+  },
+  {
+    "id": 3,
+    "project_name": "Hotel Management System (HMS)",
+    "software_type": ["ERP", "Payment Processing"],
+    "assigned_category": "E commerce & Business Applications",
+    "rationale": "Includes reservations, booking management, customer handling, and payment related business operations."
+  },
+  {
+    "id": 4,
+    "project_name": "Human Resource Management System (HRMS)",
+    "software_type": ["ERP", "CRM"],
+    "assigned_category": "E commerce & Business Applications",
+    "rationale": "Focuses on enterprise employee management, recruitment, and organizational workflow administration."
+  },
+  {
+    "id": 5,
+    "project_name": "Online Library Management System (LMS)",
+    "software_type": ["General Applications"],
+    "assigned_category": "Balanced Testing",
+    "rationale": "Represents a standard web based management platform involving CRUD operations, reservations, and user administration."
+  },
+  {
+    "id": 6,
+    "project_name": "SDMSTM Synergy Distributed Meeting Scheduler",
+    "software_type": ["Cloud Services", "Data Processing"],
+    "assigned_category": "High Performance Systems",
+    "rationale": "Involves concurrent scheduling, conflict resolution, dynamic replanning, and resource coordination under performance constraints."
+  },
+  {
+    "id": 7,
+    "project_name": "MusicBox",
+    "software_type": ["AI", "Data Processing"],
+    "assigned_category": "High Performance Systems",
+    "rationale": "Includes hardware integration, real time music playback, timing synchronization, and performance sensitive processing."
+  },
+  {
+    "id": 8,
+    "project_name": "Online Shopping System (OSS)",
+    "software_type": ["Payment Processing"],
+    "assigned_category": "E commerce & Business Applications",
+    "rationale": "Supports shopping cart management, vendor operations, payments, and customer transaction workflows."
+  },
+  {
+    "id": 9,
+    "project_name": "Project Automate Paint Defect Analysis",
+    "software_type": ["Defense", "Safety Critical Quality Assurance"],
+    "assigned_category": "Safety Critical Systems",
+    "rationale": "Supports industrial quality assurance, automotive defect tracking, and production inspection processes where defect accuracy is critical."
+  },
+  {
+    "id": 10,
+    "project_name": "Student Registration System",
+    "software_type": ["General Applications"],
+    "assigned_category": "Balanced Testing",
+    "rationale": "Represents a general educational management platform focused on registration, reporting, and administrative operations."
+  },
+  {
+    "id": 11,
+    "project_name": "Training Database Platform (TDP)",
+    "software_type": ["General Applications"],
+    "assigned_category": "Balanced Testing",
+    "rationale": "Provides generalized training, enrollment, reporting, and participant management functionalities across multiple stakeholders."
+  }
+]
